@@ -25,4 +25,4 @@ jobs:
       - run: pwd
       - run: ./scripts/feeds update -a
       - run: ./scripts/feeds install -a
-      - run: ./make menuconfig
+      - run: make menuconfig
